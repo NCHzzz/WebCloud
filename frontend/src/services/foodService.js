@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const getAll = async () => {
-  const { data } = await axios.get('/api/foods');
+  const { data } = await axios.get('http://20.248.209.12:5000/api/foods');
   return data;
 };
 
