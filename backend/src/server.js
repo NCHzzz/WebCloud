@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(
   cors({
     credentials: true,
-    origin: ['http://20.92.161.187:3000'],
+    origin: ['http://51.8.187.70:3000'],
   })
 );
 

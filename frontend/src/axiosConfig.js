@@ -1,3 +1,3 @@
 import axios from 'axios';
 
-axios.defaults.baseURL ='http://20.92.161.187:5000' ;
+axios.defaults.baseURL ='http://51.8.187.70:5000' ;
